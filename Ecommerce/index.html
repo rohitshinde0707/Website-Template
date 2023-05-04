@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" /> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- ======header section & navbar section or home links======
+    2 div inside first one for nav links and another one for responsive menu bar  -->
+    <section id="header">
+        <a href="#"><img src="logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Other Products</a></li>
+                <li><a href="blog.html">DOWNLOAD BROCHURE</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+
+
+    </section>
+
+    <!-- ======Hero Section ===== -->
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super Value Deals</h2>
+        <h1>On all produts</h1>
+        <p>save more with coupons & up to 70% Off !</p>
+        <button>Shop Now</button>
+    </section>
+
+
+    <!-- ======Feature section ======
+    6 div inside this section for 1 service create first
+    copy paste 5 times and  change img ,text ,and button color 
+    using css child property -->
+    <section id="feature" class="section-p1">
+        <!-- <div data-aos="slide-right" 
+        data-aos-duration="1500" class="fe-box">
+            <img src="features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div> -->
+
+        <div data-aos="slide-right"  data-aos-delay="50"
+        data-aos-duration="1500" class="fe-box">
+            <img src="features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+
+        <div data-aos="slide-right"  data-aos-delay="50"
+        data-aos-duration="1500" class="fe-box">
+            <img src="features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+
+        <div data-aos="slide-left"  data-aos-delay="50"
+        data-aos-duration="1500" class="fe-box">
+            <img src="features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+
+        <div data-aos="slide-left"  data-aos-delay="50"
+        data-aos-duration="1500" class="fe-box">
+            <img src="features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+
+        <!-- <div data-aos="slide-left"  data-aos-delay="50"
+        data-aos-duration="1500"  class="fe-box">
+            <img src="features/f6.png" alt="">
+            <h6>F24/7 Support</h6>
+        </div> -->
+
+    </section>
+
+
+    <!-- ===========featured Products Section=====
+    8 div inside this section create first and copy paste
+    7 times -->
+    <section id="product1" class="section-p1">
+        <h2> Usha Products</h2>
+        <!-- <p>Summer Collection New Morden Design </p> -->
+        <div class="pro-container">
+            <div class="pro">
+                <img src="electronic/7.jpg" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Usha ceiling -fan</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/usha table fan.jpeg" alt="">
+                <div class="des">
+                    <span>Usha </span>
+                    <h5>Usha High Speed Table-fan</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/usha padel fan.jpg" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Usha High Speed Pedal-Fan</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/usha mixer grinder.png" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Mixer Grinder 550 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/usha induction.jpeg" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Cooking Induction</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/usha-ei-3302-electric-iron-500x500.jpg" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Usha Iron</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/50w-led-flood-light-500x500.webp" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Usha 50 W Led-Flood-Light</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/usha led tibe.webp" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Usha Led-Tube 20 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="electronic/Maxx-Air-Wall-Fan-small.png" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Sweep 40 cm (400 mm)Air Delivery 67 m3/minSpeed 1280 rpmPower Input 55 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-bag cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/Aeroclean-Plus-1s.png" alt="">
+                <div class="des">
+                    <span>Usha </span>
+                    <h5>Sweep 23 cm (230 mm)Air Delivery 750 m3/hrSpeed 1400 rpmPower Input 45 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/Special-Application-Turbo-Multipurpose-Fan-Orange-small_0.png" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Sweep 15 cm (150 mm)Air Delivery m3/minSpeed 2200 rpmPower Input 25 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/fan heater.jpg" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Room Heater</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+
+            <div class="pro">
+                <img src="/electronic/Insta-LineH 3l 3000w.png" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Instant line Water Heater | 3L | 3000 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/electronic/Aqua horizon 25l 2000w.png" alt="">
+                <div class="des">
+                    <span>Usha</span>
+                    <h5>Aqua Storage Water Heater | 25L | 2000 W</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- =============Discount banner Section ====== -->
+    <!-- <section id="banner" class="section-m1">
+        <h4>Repair Service</h4>
+        <h2>Up to <span>70% Off</span> - All T-Shirts & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section> -->
+
+    
+
+    <!-- ========new Arrivals  Section-======== 
+     Copy this section from featured produts(section) change img only simplly -->
+
+    <!-- <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection New Morden Design </p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="products/n1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n3.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n4.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n5.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n6.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n7.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="products/n8.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+
+
+
+        </div>
+
+    </section> -->
+
+    <!-- ====Crazy Deals & Upcomiing Seson Section=====
+    In this Section 2 div for photos and text on photos -->
+    <!-- <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>buy 1 get 1 free </h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Learn MOre</button>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h4>Spring / Summer</h4>
+            <h2>Upcoming Season </h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Collection</button>
+        </div>
+    </section> -->
+
+    <!-- =====Seasonal Footwear T-shirts Section====
+    In this section 3 div for 3 photos and on there text -->
+    <!-- <section id="banner3">
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Winter Collection -50% OFF</h3>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+            <h3>Spring / Summer 2023</h3>
+        </div>
+
+        <div class="banner-box banner-box3">
+            <h2>T-SHIRTS</h2>
+            <h3>New Treandy Print's</h3>
+        </div>
+
+    </section> -->
+
+
+    <!-- =====NEWS LETTER SECTION OR UPDATES SECTION 
+        In this Section 2 div 1 for sign up text & 
+        another one for form or input & button==== -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-Mail updates about latest shop and <span>Special Offers</span> </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal"> Sign up</button>
+        </div>
+    </section>
+
+    <!--======= footer section ======== In the footer section there are 4 div for col and 
+    one  1 div Copy right -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong> Address:</strong> 562 Wellington Road, Street 32, San Franciso</p>
+            <p><strong> Phone:</strong> +012222 365 /(+91)0123456789</p>
+            <p><strong> Hours:</strong> 10:00 - 18:00. Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>MY Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="pay/app.jpg" alt="">
+                <img src="pay/play.jpg" alt="">
+                <p>Secured Payment Gateway</p>
+                <img src="pay/pay.png" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> @ 2023, Web-Developer --Rohit S. [ HTML CSS E-Commerce Template ]</p>
+        </div>
+    </footer>
+
+    <!-- ========java script file link===== -->
+    <script src="script.js"></script>
+
+    <!--====== Script fot data -aos animation ====-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            
+        );
+    </script>
+</body>
+</html>
