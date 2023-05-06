@@ -238,11 +238,15 @@ figure {
     width: 60%;
     height: 60vh;
     background-color: #ffffff;
+    position: relative;
     
 }
 .black-section .white-div .white-img{
     background-color: #999999;
     height: 350px;
-    width: 450px;
+    width: 350px;
+    position: absolute;
+    border-radius: 50%;
+    top: -150px;
    
 }
