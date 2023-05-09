@@ -423,3 +423,30 @@ figure {
     font-size: 18px;
     text-transform: uppercase;
 }
+.last-container{
+    max-width: 100%;
+    width: 100%;
+    height: 90vh;
+    max-height: 90vh;
+    /* background-color: #f2101a; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.last-container .main-container{
+    max-width: 50%;
+    width: 50%;
+    height: 60vh;
+    max-height: 60vh;
+    background-color: white;
+    margin-bottom: 180px;
+}
+.last-container .main-container .news-letter{
+    width: 100%;
+    max-width: 100%;
+    height:20vh;
+    max-height: 20vh;
+    background-color: #111111;
+    color: #ffffff;
+}
